@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+  <head>
+    <title>ImageBot</title>
+    <!-- Load the latest version of TensorFlow.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/knn-classifier"></script>
+  </head>
+  <body>
+    <div id="console"></div>
+    <video autoplay playsinline muted id="webcam" width="224" height="224"></video>
+    <button id="class-a">Add Subject A</button>
+    <button id="class-b">Add Subject B</button>
+    <button id="class-c">Add Subject C</button>
+    <!-- Load index.js after the content of the page -->
+    <script src="./main.js"></script>
+  </body>
+</html>
